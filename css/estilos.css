@@ -1,6 +1,4 @@
-/*Index*/
-/*contacto*/
-/*micuenta*/
+
 *{
     padding:0;
     margin: 0;
@@ -8,32 +6,24 @@
    
 }
 
-
-
-#acceder{
-    height: 25vh;
-    padding: 65% 15% 0% 15%;
-    font-size: 0.8em;
-    background-color:#00D9F3 
-}
-
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
     
-
   }
   
-  /* Add a gray background color and some padding to the footer */
+ 
   footer {
-    background-color: #f2f2f2;
-    padding: 25px;
+    background-color: #383838;
+    padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
   }
   
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin: auto;
-    min-height:200px;
+    min-height:100px;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -41,4 +31,15 @@
   .carousel-caption {
     display: none; 
   }
+}
+.redes{
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.redes li {
+  display: inline-block;
+}
+.redes a{
+  padding: 5px;
 }
