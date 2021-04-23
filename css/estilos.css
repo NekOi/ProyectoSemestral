@@ -43,3 +43,28 @@
 .redes a{
   padding: 5px;
 }
+
+/*Registro/formulario*/
+form {
+  margin-top: 80px;
+  padding-left: 60px;
+  display: auto;
+  justify-content: space-between;
+  align-items: left;
+}
+
+label {
+  text-align: right;
+  width: 30%;
+  margin-right: 2%;
+}
+label, input, button {
+  font-size: 14px;
+  line-height: 1.5
+}
+
+button{
+  width: auto;
+  
+}
+
