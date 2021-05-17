@@ -13,17 +13,17 @@
   }
   
  
-  footer {
-    background-color: #383838;
-    padding: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-  }
+
+
+  /*CARRUSEL*/
   
+
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
+    padding-top:50px;
     margin: auto;
     min-height:100px;
+    height: 200px;
+    width: 600px;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -32,6 +32,35 @@
     display: none; 
   }
 }
+
+  footer {
+    background-color: hsl(0, 0%, 22%);
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+    
+  }
+
+
+
+  .pie h1{
+    text-align-last: left;
+    padding: 0 3rem;
+  }
+  .pie h3{
+    padding: 0 3rem;
+  }
+
+  .pie h5{
+    padding: 0 3rem;
+  }
+
+  #exampleInputEmail1{ 
+    width: 350px; 
+  }
+
 .redes{
   text-align: left;
   padding-top: 5px;
@@ -43,6 +72,69 @@
 .redes a{
   padding: 5px;
 }
+
+
+
+
+/*nosotros*/
+
+.fondoo{  
+  padding-top: 80px;
+  background-color: mediumorchid ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.fondoo h1{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#txtNos{
+  text-align: justify;
+  padding: 5% 2% 10% 2%;
+}
+
+
+
+/*Cuenta*/
+.cuentaa {
+  padding-top: 80px;
+  background-color: rgb(85, 104, 211) ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.cuentaa h1{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#inputEmail, #inputPassword, #btnAccederCuenta{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*contactanos*/
+
+.contact {
+  padding-top: 80px;
+  background-color: rgb(85, 211, 116) ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.contact h1{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+
+
 
 /*Registro/formulario*/
 form {
