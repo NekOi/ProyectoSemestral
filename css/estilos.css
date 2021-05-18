@@ -3,7 +3,10 @@
     padding:0;
     margin: 0;
     box-sizing:  border-box;
-   
+}
+
+.clear {
+  margin-top: 60px;
 }
 
 .navbar {
@@ -12,7 +15,18 @@
     
   }
   
- 
+.grupo0 h1{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(30, 31, 30) ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  border-radius: 32px;
+  background: #72015f;
+  box-shadow:  5px 5px 25px #494848,
+              -1px -1px 25px #858282;
+}
 
 
   /*CARRUSEL*/
@@ -24,6 +38,11 @@
     min-height:100px;
     height: 200px;
     width: 600px;
+}
+
+#btnInfoCarru{
+  background-color: #72015f;
+  
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -79,15 +98,19 @@
 /*nosotros*/
 
 .fondoo{  
-  padding-top: 80px;
-  background-color: mediumorchid ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(30, 31, 30) ;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
+  border-radius: 32px;
+  background: #72015f;
+  box-shadow:  5px 5px 25px #494848,
+              -1px -1px 25px #858282;
 }
 
 .fondoo h1{
   text-align: center;
-  padding-bottom: 40px;
 }
 
 #txtNos{
@@ -99,21 +122,30 @@
 
 /*Cuenta*/
 .cuentaa {
-  padding-top: 80px;
-  background-color: rgb(85, 104, 211) ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(30, 31, 30) ;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
+  border-radius: 32px;
+  background: #72015f;
+  box-shadow:  5px 5px 25px #494848,
+              -1px -1px 25px #858282;
 }
 
 .cuentaa h1{
   text-align: center;
-  padding-bottom: 40px;
 }
 
 #inputEmail, #inputPassword, #btnAccederCuenta{
   width: 30%;
   margin-left: auto;
   margin-right: auto;
+  
+}
+#btnAccederCuenta{
+  background-color: #72015f;
+  
 }
 
 
@@ -121,15 +153,20 @@
 /*contactanos*/
 
 .contact {
-  padding-top: 80px;
-  background-color: rgb(85, 211, 116) ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(30, 31, 30) ;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
+  border-radius: 32px;
+  background: #72015f;
+  box-shadow:  5px 5px 25px #494848,
+              -1px -1px 25px #858282;
 }
 
 .contact h1{
   text-align: center;
-  padding-bottom: 40px;
+
 }
 
 
@@ -157,6 +194,34 @@ label, input, button {
 
 button{
   width: auto;
+  color: #72015f;
   
 }
+
+/*Noticias*/
+.noti {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(30, 31, 30) ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  border-radius: 32px;
+  background: #72015f;
+  box-shadow:  5px 5px 25px #494848,
+              -1px -1px 25px #858282;
+
+}
+
+.noti h1{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+#notiImgTamaño{
+  width: 200px; height: 100px;
+}
+
+
 
