@@ -198,6 +198,27 @@ button{
   
 }
 
+.btn-primary {
+  background-color: #EA6927;
+  border: #EA6927;
+}
+
+.btn-primary:hover {
+  background-color: #EBAB47;
+  border: #EBAB47;
+  ;
+}
+
+/*error1*/
+.error{
+  color:#EA6927
+}
+
+
+
+
+
+
 /*Noticias*/
 .noti {
   padding-top: 20px;
