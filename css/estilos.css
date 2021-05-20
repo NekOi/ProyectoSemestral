@@ -175,43 +175,36 @@
 
 /*Registro/formulario*/
 form {
-  margin-top: 80px;
-  padding-left: 60px;
+  margin-top: 80px; 
   display: auto;
   justify-content: space-between;
   align-items: left;
 }
 
-label {
-  text-align: right;
-  width: 30%;
-  margin-right: 2%;
-}
-label, input, button {
-  font-size: 14px;
-  line-height: 1.5
+#controlEspacios{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-button{
-  width: auto;
-  color: #72015f;
-  
+#enviar {
+  background-color: #72015f;
+  border: #72015f;
 }
 
-.btn-primary {
-  background-color: #EA6927;
-  border: #EA6927;
-}
-
-.btn-primary:hover {
-  background-color: #EBAB47;
-  border: #EBAB47;
+#enviar:hover {
+  background-color: #b96fad;
+  border: #b96fad;;
   ;
+}
+
+#limpiar:hover{
+  background-color: rgb(216, 216, 216);
+  
 }
 
 /*error1*/
 .error{
-  color:#EA6927
+  color:#5f0d5b
 }
 
 

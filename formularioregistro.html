@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 
 </head>
 
@@ -66,24 +67,25 @@
         <div class="col-md-4"></div>
         <div class="col-md-4">
           <div class="container-fluid">
-            <form id="form1">
-              <div class="row">
-                <div class="form-check form-check-inline pl-3">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+            <form  id="form1">
+              <div class="row" >
+                <div class="form-check form-check-inline col-sm-6">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" value="rut" id="selRut"
                     value="option1">
                   <label class="form-check-label" for="inlineRadio1">RUT</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" value="pasaporte" id="selPasaporte"
                     value="option2">
                   <label class="form-check-label" for="inlineRadio2">Pasaporte</label>
                 </div>
               </div>
               <div class="form-row pb-2">
-                <div class="col-3">
-                  <input type="text" class="form-control" placeholder="N° Identificación">
+                <div id="controlEspacios" class="col-3">
+                  <input type="text" class="form-control" placeholder="N° Identificación" id="rut">
+                  <span id="errorRut" class="error"></span>
                 </div>
-                <div class="col-5">
+                <div id="controlEspacios" class="col-5">
                   <input id="nomCompleto" type="text" class="form-control" placeholder="Nombre Completo">
                   <span id="error1" class="error"></span>
                 </div>
@@ -91,42 +93,35 @@
               </div>
 
               <div class="form-row pb-2">
-                <div class="col">
+                <div id="controlEspacios" class="col">
                   <input id="mail" type="email" class="form-control" placeholder="Correo Electrónico">
                   <span id="error2" class="error"></span>
                 </div>
-                <div class="col">
+                <div id="controlEspacios" class="col">
                   <input type="tel" class="form-control" id="telefono" placeholder="Teléfono de Contacto">
                   <span id="error3" class="error"></span>
                 </div>
               </div>
-              <div class="form-row pb-2">
+              <div id="controlEspacios" class="form-row pb-2">
                 <div class="col">
                   <select id="selCiudad" class="custom-select mb-3">
-                    <option selected>Ciudad de Residencia</option>
-                    <option value="1">Valparaíso</option>
-                    <option value="2">Viña del Mar</option>
-                    <option value="3">Concón</option>
-                    <option value="4">Quilpué</option>
-                    <option value="5">Villa Alemana</option>
-                    <option value="6">Casablanca</option>
+                    <option value="0">Ciudad de Residencia</option>
                   </select>
                 </div>               
               </div>
 
               <div class="form-row pb-2">
-                <div class="col">
-                  <label for="exampleFormControlTextarea1">Hablanos de ti</label>
+                <div id="controlEspacios" class="col">
+                  <label for="exampleFormControlTextarea1">Hablanos de ti:</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                 </div>
                 
               </div>
 
               <div class="form-row pb-2">
-                <div class="clear col-2"></div>
                 <div class="col">
-                  <button id="enviar" class="btn btn-primary">Enviar</button>
-                  <button class="btn btn-secondary" type="reset">Limpiar</button>
+                  <button id="btnEnviar" class="btn btn-primary">Enviar</button>
+                  <button id="btnLimpiar" class="btn btn-secondary" type="reset">Limpiar</button>
                 </div>
               </div>
             </form>
@@ -134,8 +129,6 @@
         </div>
         <div class="col-md-4"></div>
         <div class="clear col-md-12"></div>
-
-
       </div>
 
     </div>
